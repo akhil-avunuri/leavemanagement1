@@ -1,0 +1,12 @@
+.b{
+    height: 50px;
+    width: 420px;
+    background-color: rgb(244, 127, 3);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 6px;
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>LEAVE MANAGEMENT</title>
+        <link rel="stylesheet" href="form.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <script>
+            function btn(){
+                alert("Your leave form was submitted")
+            }
+        </script>
+        <div class="header">
+            <div class="logo"></div>
+            <nav id="navbar">
+                <ul id="navcontent">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="falogin.html">Faculty-Login</a></li>
+                    <li><a href="stlogin.html">Student-Login</a></li>
+                    <li><a href="hodlogin.html">HOD-Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <center><form>
+            <table>
+                <h2>LEAVE FORM</h2>
+                <tr>
+            <th>Enter your name</th>
+            <td><input type="text" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <th>Enter your id/roll-no</th>
+            <td><input type="text" placeholder="Enter your id"></td>
+        </tr>
+        <tr>
+            <th>Enter your mobile</th>
+            <td><input type="text" placeholder="Enter your mobile"></td>
+        </tr>
+        <tr>
+            <th>Enter your Branch</th>
+            <td><input type="text" placeholder="Enter your Branch"></td>
+        </tr>
+        <tr>
+            <th>Enter your section</th>
+            <td><input type="text" placeholder="Enter your section"></td>
+        </tr>
+        <tr>
+            <th>Submit Leave</th>
+            <td><input type="file" class="form-control-file" id="exampleFormControlFile1"></td>
+        </tr>
+        </table>
+        </form>
+    </center>
+    <input class="button" type="button" value="submit" onclick="btn()">
+    </body>
+</html>
